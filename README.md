@@ -44,11 +44,11 @@ Cao H, Cooper DG, Keutmann MK, Gur RC, Nenkova A, Verma R. CREMA-D: Crowd-source
 - "sessionNums" - the distinct number for the session
 -  "queryType" - a numeric value specifying the type of stimulus: 1. - voice only, 2. face only, 3. audio-visual
 -  "questNum" - the order of questions for the query type
--   "pos" - the original log file order for the participant
--        "ttr" - the response time in milliseconds
--        "numTries" - number of extra emotion clicks. 
--   "clipNum" - the file order of the clip from SentenceFilenames.csv
--    "clipName" - the name of the video file
+-  "pos" - the original log file order for the participant
+-  "ttr" - the response time in milliseconds
+-  "numTries" - number of extra emotion clicks. 
+-  "clipNum" - the file order of the clip from SentenceFilenames.csv
+-  "clipName" - the name of the video file
 
 
 
@@ -63,23 +63,23 @@ Cao H, Cooper DG, Keutmann MK, Gur RC, Nenkova A, Verma R. CREMA-D: Crowd-source
 - "fileName" - name of the movie file rated           
 - "numResponses" - total number of responses
 - "agreement" - proportion of agreement
--    "emoVote" - the majority vote agreement
--      "meanEmoResp" - the mean of all emotion levels
+- "emoVote" - the majority vote agreement
+-  "meanEmoResp" - the mean of all emotion levels
 -  "meanAngerResp" - the mean of the anger levels
 -  "meanDisgustResp" - the mean of the disgust levels
--    "meanFearResp" - the mean of the fear levels     
--     "meanHappyResp" - the mean of the happy levels
--      "meanNeutralResp" - the mean of the neutral levels
--    "meanSadResp" - the mean of the sad levels
+-  "meanFearResp" - the mean of the fear levels     
+-  "meanHappyResp" - the mean of the happy levels
+-  "meanNeutralResp" - the mean of the neutral levels
+-  "meanSadResp" - the mean of the sad levels
 -  "medianEmoResp" - the median of all emotion levels
--   "meanEmoRespNorm" - the normalized mean of all emotion levels
+-  "meanEmoRespNorm" - the normalized mean of all emotion levels
 - "meanAngerRespNorm" - the normalized mean of anger emotion levels
 -  "meanDisgustRespNorm" - the normalized mean of disgust emotion levels
 -  "meanFearRespNorm" - the normalized mean of fear emotion levels
--   "meanHappyRespNorm" - the normalized mean of happy emotion levels
+-  "meanHappyRespNorm" - the normalized mean of happy emotion levels
 -  "meanNeutralRespNorm" - the normalized mean of neutral emotion levels
 -  "meanSadRespNorm" - the normalized mean of sad emotion levels
--    "medianEmoRespNorm"  - the normalized median of all emotion levels
+-  "medianEmoRespNorm"  - the normalized median of all emotion levels
 
 ##### Video Files
 

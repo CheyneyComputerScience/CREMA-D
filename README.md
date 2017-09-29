@@ -82,7 +82,14 @@ Cao H, Cooper DG, Keutmann MK, Gur RC, Nenkova A, Verma R. CREMA-D: Crowd-source
 -  "medianEmoRespNorm"  - the normalized median of all emotion levels
 
 ##### Video Files
+Flash Video Files used for presentation to the Raters are stored in VideoFlash/
 
 ##### Audio Files
 
+MP3 Audio files used for presentation to the Raters are stored in AudioMP3.
+
+
 ##### Processed Audio
+
+
+WAV Audio files converted from the original video into a format appropriate for computational audio processing are stored in AudioWAV.

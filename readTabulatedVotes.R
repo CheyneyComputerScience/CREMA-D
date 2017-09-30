@@ -1,6 +1,6 @@
 ## Author: David G. Cooper
 ## Email: David.Cooper@cheyney.edu
-## Last Modification Date: July 13
+## Last Modification Date: Sep 29, 2017
 ## Purpose: this reads the tabulatedVotes data frame back in from the tabulatedVotes.csv file as if
 ##          processed by processFinishedResponses.R
 
@@ -9,3 +9,6 @@ tabulatedVotesClasses <- c('character','integer','integer','integer','integer','
 
 ## read the tabulated votes data frame.
 tabulatedVotesTest <- read.csv('processedResults/tabulatedVotes.csv',row.names='X',colClasses=tabulatedVotesClasses)
+
+## read the summary votes data frame
+summaryData <- read.csv('processedResults/summaryTable.csv',row.names='X')

@@ -50,6 +50,15 @@ Cao H, Cooper DG, Keutmann MK, Gur RC, Nenkova A, Verma R. CREMA-D: Crowd-source
 -  "clipNum" - the file order of the clip from SentenceFilenames.csv
 -  "clipName" - the name of the video file
 
+##### Summary Table Columns <br> processedResults/summaryTable.csv
+- "fileName" - name of the movie file rated           
+- "VoiceVote" - the emotion (or emotions separated by a colon) with the majority vote for Voice ratings. (A, D, F, H, N, or S)      
+- "VoiceLevel" - the numeric rating (or ratings separated by a colon) corresponding to the emotion(s) listed in "VoiceVote"       
+- "FaceVote" - the emotion (or emotions separated by a colon) with the majority vote for Face ratings. (A, D, F, H, N, or S)      
+- "FaceLevel" - the numeric rating (or ratings separated by a colon) corresponding to the emotion(s) listed in "FaceVote"       
+- "MultiModalVote" - the emotion (or emotions separated by a colon) with the majority vote for MultiModal ratings. (A, D, F, H, N, or S)      
+- "MultiModalLevel" - the numeric rating (or ratings separated by a colon) corresponding to the emotion(s) listed in "MultiModalVote"       
+
 
 
 ##### Tabulated Votes Columns <br> processedResults/tabulatedVotes.csv
@@ -82,14 +91,14 @@ Cao H, Cooper DG, Keutmann MK, Gur RC, Nenkova A, Verma R. CREMA-D: Crowd-source
 -  "medianEmoRespNorm"  - the normalized median of all emotion levels
 
 ##### Video Files
-Flash Video Files used for presentation to the Raters are stored in VideoFlash/
+Flash Video Files used for presentation to the Raters are stored in the VideoFlash directory.
 
 ##### Audio Files
 
-MP3 Audio files used for presentation to the Raters are stored in AudioMP3.
+MP3 Audio files used for presentation to the Raters are stored in the AudioMP3 directory.
 
 
 ##### Processed Audio
 
 
-WAV Audio files converted from the original video into a format appropriate for computational audio processing are stored in AudioWAV.
+WAV Audio files converted from the original video into a format appropriate for computational audio processing are stored in the AudioWAV directory.

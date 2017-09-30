@@ -1,6 +1,6 @@
 ## Author: David G. Cooper
 ## Email: David.Cooper@cheyney.edu
-## Last Modification Date: July 13, 2017
+## Last Modification Date: Sept. 29, 2017
 ##
 ## Purpose: This is the main for converting the individual ratings to
 ## a tabulated form. The script takes a number of steps to complete this
@@ -22,8 +22,9 @@
 ##
 
 
-## 0. source the vote counting function.
+## 0. source the vote counting functions.
 source('./tabulateVotesV2.r')
+source('./summarizeVotes.r')
 
 ## 1. Read and tabulate the file.
 
@@ -70,4 +71,7 @@ fileNames[7444,2] <- "SAD_MD_practice";
 
 ## call tabulate function
 tabulatedVotes <- tabulateVotesV2(goodFinishedResponsesNoRepeatNoPractice,fileNames)
+
+## call summarize function
+summarizedVotes <- summarizeVotes(goodFinishedResponsesNoRepeatNoPractice,fileNames)
 

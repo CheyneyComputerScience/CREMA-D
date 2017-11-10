@@ -1,4 +1,4 @@
-## CREMA-D Data Files
+## CREMA-D (Crowd-sourced Emotional Mutimodal Actors Dataset)
 
 #### This Directory holds files used in the paper: 
 

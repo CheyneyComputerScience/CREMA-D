@@ -4,6 +4,11 @@ This Directory holds files used in the paper:
 
 Cao H, Cooper DG, Keutmann MK, Gur RC, Nenkova A, Verma R. CREMA-D: Crowd-sourced Emotional Multimodal Actors Dataset. IEEE transactions on affective computing. 2014;5(4):377-390. doi:10.1109/TAFFC.2014.2336244.
 
+The collection of the videos is described in this paper:
+
+Keutmann, M. K., Moore, S. L., Savitt, A., & Gur, R. C. (2015). Generating an item pool for translational social cognition research: methodology and initial validation. Behavior research methods, 47(1), 228-234. 
+
+
 
 ##### Text Data Files:
 
@@ -102,3 +107,9 @@ MP3 Audio files used for presentation to the Raters are stored in the AudioMP3 d
 
 
 WAV Audio files converted from the original video into a format appropriate for computational audio processing are stored in the AudioWAV directory.
+
+
+
+##### Funding Sources
+NIH R34MH105248
+NIH R01MH107235

@@ -111,5 +111,7 @@ WAV Audio files converted from the original video into a format appropriate for 
 
 
 ##### Funding Sources
-NIH R34MH105248
-NIH R01MH107235
+All data collection and method development was supported by the following funding sources:
+- NIH R01 MH073174 (Computational quantification of emotion in faces and voice for neuropsychiatry) from National Institute of Mental Health (NIMH)
+- NIH R34 MH105248 (Developing CBT-informed social enactment training curricula for CHR youths) from NIMH
+- NIH R01 MH107235 (Multimodal brain maturation indices modulating psychopathology and neurocognition) from NIMH

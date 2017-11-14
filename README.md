@@ -12,6 +12,12 @@ Keutmann, M. K., Moore, S. L., Savitt, A., & Gur, R. C. (2015). Generating an it
 This Crowd-sourced Emotional Mutimodal Actors Dataset (CREMA-D) is made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/
 
 
+### Access
+
+If you access the GitHub repository, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdvOR994_Hsx7OkBU3oCzluXcmxw2P1nr-zBxcPgVBNLdD9Eg/viewform?usp=sf_link). That way we can keep a record of the community of CREMA-D users.
+
+
+
 ##### Text Data Files:
 
 1. SentenceFilenames.csv - list of movie files used in study

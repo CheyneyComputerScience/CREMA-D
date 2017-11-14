@@ -2,7 +2,7 @@
 
 ### Access
 
-To request access to the private GitHub repository, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdvOR994_Hsx7OkBU3oCzluXcmxw2P1nr-zBxcPgVBNLdD9Eg/viewform?usp=sf_link) and email David.Cooper@cheyney.edu that you have requested access. You will then be given read-only access to the repository.
+If you access the GitHub repository, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdvOR994_Hsx7OkBU3oCzluXcmxw2P1nr-zBxcPgVBNLdD9Eg/viewform?usp=sf_link). That way we can keep a record of the community of CREMA-D users.
 
 #### This Directory holds files used in the paper: 
 

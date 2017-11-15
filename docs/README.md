@@ -1,20 +1,25 @@
 ## CREMA-D (Crowd-sourced Emotional Mutimodal Actors Dataset)
 
-### Access
+#### Access
 
 If you access the GitHub repository, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdvOR994_Hsx7OkBU3oCzluXcmxw2P1nr-zBxcPgVBNLdD9Eg/viewform?usp=sf_link). That way we can keep a record of the community of CREMA-D users.
 
+Note: This repository uses Git Large File Storage,[git-lfs](https://git-lfs.github.com). You will need to install it on top of your git installation in order to get the video and audio files. If you just download the zip file then all of the video and audio files will just be links to the git-lfs file. For more information [go here](https://git-lfs.github.com).
+
 #### This Directory holds files used in the paper: 
 
-Cao H, Cooper DG, Keutmann MK, Gur RC, Nenkova A, Verma R. CREMA-D: Crowd-sourced Emotional Multimodal Actors Dataset. IEEE transactions on affective computing. 2014;5(4):377-390. doi:10.1109/TAFFC.2014.2336244.
+[Cao H, Cooper DG, Keutmann MK, Gur RC, Nenkova A, Verma R. CREMA-D: Crowd-sourced Emotional Multimodal Actors Dataset. IEEE transactions on affective computing. 2014;5(4):377-390. doi:10.1109/TAFFC.2014.2336244.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4313618/)
 
 #### The collection of the videos is described in this paper:
 
-Keutmann, M. K., Moore, S. L., Savitt, A., & Gur, R. C. (2015). Generating an item pool for translational social cognition research: methodology and initial validation. Behavior research methods, 47(1), 228-234. 
+[Keutmann, M. K., Moore, S. L., Savitt, A., & Gur, R. C. (2015). Generating an item pool for translational social cognition research: methodology and initial validation. Behavior research methods, 47(1), 228-234.](https://www.ncbi.nlm.nih.gov/pubmed/24719265)
 
 #### License:
 This Crowd-sourced Emotional Mutimodal Actors Dataset (CREMA-D) is made available under the Open Database License: http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/
 
+
+
+#### Description
 
 ##### Text Data Files:
 
@@ -121,4 +126,3 @@ All data collection and method development was supported by the following fundin
 - NIH R01 MH073174 (Computational quantification of emotion in faces and voice for neuropsychiatry) from National Institute of Mental Health (NIMH)
 - NIH R34 MH105248 (Developing CBT-informed social enactment training curricula for CHR youths) from NIMH
 - NIH R01 MH107235 (Multimodal brain maturation indices modulating psychopathology and neurocognition) from NIMH
-

@@ -4,7 +4,12 @@
 
 If you access the GitHub repository, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdvOR994_Hsx7OkBU3oCzluXcmxw2P1nr-zBxcPgVBNLdD9Eg/viewform?usp=sf_link). That way we can keep a record of the community of CREMA-D users.
 
-Note: This repository uses Git Large File Storage,[git-lfs](https://git-lfs.github.com). You will need to install it on top of your git installation in order to get the video and audio files. If you just download the zip file then all of the video and audio files will just be links to the git-lfs file. For more information [go here](https://git-lfs.github.com).
+#### Storage requirements
+
+Note: This repository uses Git Large File Storage, [git-lfs](https://git-lfs.github.com). You will need to install it on top of your git installation in order to get the video and audio files.  If you just download the zip file (~24MB zipped, ~163MB unzipped) then all of the video and audio files will just be links to the git-lfs file. For more information [go here](https://git-lfs.github.com). 
+
+- **zip download:** Downloading the repository as a zip will get you all of the R scripts and csv files as well as stubs for all of the audio and video files. The zipped size is ~24MB, and the unzipped size is ~163MB.
+- **git clone:** ~7.55GB is required to clone the whole repository. In addition to the R scripts and csv files, there is audio and video from 7442 recordings as flash video, mp3, and wav files as described below.
 
 #### This Directory holds files used in the paper: 
 

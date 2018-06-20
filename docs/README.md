@@ -3,32 +3,15 @@
 
 #### Summary
 
-CREMA-D is a data set of 7,442 original clips from 91 actors. These clips were from 48 male and 43 female actors between the ages of 20 and 74 coming from a variety of races and ethnicities (See the VideoDemographics.csv file for details). 
+CREMA-D is a data set of 7,442 original clips from 91 actors. These clips were from 48 male and 43 female actors between the ages of 20 and 74 coming from a variety of races and ethnicities (African America, Asian, Caucasian, Hispanic, and Unspecified). 
 
-Actors spoke from a selection of 12 sentences (in parentheses is the three letter acronym used in the second part of the filename): 
+Actors spoke from a selection of 12 sentences. The sentences were presented using one of six different emotions (Anger, Disgust, Fear, Happy, Neutral, and Sad) and four different emotion levels (Low, Medium, High, and Unspecified). 
 
-- It's eleven o'clock (IEO).- That is exactly what happened (TIE).- I'm on my way to the meeting (IOM).- I wonder what this is about (IWW).- The airplane is almost full (TAI).- Maybe tomorrow it will be cold (MTI).- I would like a new alarm clock (IWL)- I think I have a doctor's appointment (ITH).- Don't forget a jacket (DFA).- I think I've seen this before (ITS).
-- The surface is slick (TSI).- We'll stop in a couple of minutes (WSI).
+Participants rated the emotion and emotion levels based on the combined audiovisual presentation, the video alone, and the audio alone. Due to the large number of ratings needed, this effort was crowd-sourced and a total of 2443 participants each rated 90 unique clips, 30 audio, 30 visual, and 30 audio-visual.  95% of the clips have more than 7 ratings.
 
-The sentences were presented using different emotion (in parentheses is the three letter code used in the third part of the filename):
+The *description* below specifies the data made availabe in this repository.
 
-- Anger (ANG)
-- Disgust (DIS)
-- Fear (FEA)
-- Happy/Joy (HAP)
-- Neutral (NEU)
-- Sad (SAD)
-
-and emotion level (in parentheses is the two letter code used in the fourth part of the filename):
- 
-- Low (LO)
-- Medium (MD)
-- High (HI)
-- Unspecified (XX)
-
-The emotion and emotion levels were rated based on the combined audiovisual presentation, the video alone, and the audio alone. Due to the large number of ratings needed, this effort was crowd-sourced and a total of 2443 raters each rated 90 unique clips, 30 audio, 30 visual, and 30 audio-visual.  95% of the clips have more than 7 ratings. 
-
-For a more complete description of CREMA-D use [this link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4313618/) or the link below to the paper.
+For a more complete description of how CREMA-D was created use [this link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4313618/) or the link below to the paper.
 
 #### Access
 
@@ -71,7 +54,7 @@ This Crowd-sourced Emotional Mutimodal Actors Dataset (CREMA-D) is made availabl
 
 ##### R Scripts
 
-1. processFinishedResponses.R - converts the finisedResponses.csv the tabulated
+1. processFinishedResponses.R - converts the finisedResponses.csv to the tabulated
 2. readTabulatedVotes.R - reads processedResults/tabulatedVotes.csv
 
 
@@ -152,6 +135,34 @@ This Crowd-sourced Emotional Mutimodal Actors Dataset (CREMA-D) is made availabl
 - "Sex" - the binary sex that the actor identified
 - "Race" - African American, Asian, Caucasian, or Unspecified
 - "Ethnicity" - Hispanic or Not Hispanic
+
+##### Filename labeling conventions
+
+The Actor id is a 4 digit number at the start of the file. Each subsequent identifier is separated by an underscore (_).
+
+Actors spoke from a selection of 12 sentences (in parentheses is the three letter acronym used in the second part of the filename): 
+
+- It's eleven o'clock (IEO).- That is exactly what happened (TIE).- I'm on my way to the meeting (IOM).- I wonder what this is about (IWW).- The airplane is almost full (TAI).- Maybe tomorrow it will be cold (MTI).- I would like a new alarm clock (IWL)- I think I have a doctor's appointment (ITH).- Don't forget a jacket (DFA).- I think I've seen this before (ITS).
+- The surface is slick (TSI).- We'll stop in a couple of minutes (WSI).
+
+The sentences were presented using different emotion (in parentheses is the three letter code used in the third part of the filename):
+
+- Anger (ANG)
+- Disgust (DIS)
+- Fear (FEA)
+- Happy/Joy (HAP)
+- Neutral (NEU)
+- Sad (SAD)
+
+and emotion level (in parentheses is the two letter code used in the fourth part of the filename):
+ 
+- Low (LO)
+- Medium (MD)
+- High (HI)
+- Unspecified (XX)
+
+The suffix of the filename is based on the type of file, flv for flash video used for presentation of both the video only, and the audio-visual clips. mp3 is used for the audio files used for the audio-only presentation of the clips. wav is used for files used for computational audio processing.
+
 
 ##### Video Files
 Flash Video Files used for presentation to the Raters are stored in the VideoFlash directory.

@@ -1,8 +1,42 @@
 ## CREMA-D (Crowd-sourced Emotional Mutimodal Actors Dataset)
 
+
+#### Summary
+
+CREMA-D is a data set of 7,442 original clips from 91 actors. These clips were from 48 male and 43 female actors between the ages of 20 and 74 coming from a variety of races and ethnicities (See the VideoDemographics.csv file for details). 
+
+Actors spoke from a selection of 12 sentences (in parentheses is the three letter acronym used in the second part of the filename): 
+
+- It's eleven o'clock (IEO).- That is exactly what happened (TIE).- I'm on my way to the meeting (IOM).- I wonder what this is about (IWW).- The airplane is almost full (TAI).- Maybe tomorrow it will be cold (MTI).- I would like a new alarm clock (IWL)- I think I have a doctor's appointment (ITH).- Don't forget a jacket (DFA).- I think I've seen this before (ITS).
+- The surface is slick (TSI).- We'll stop in a couple of minutes (WSI).
+
+The sentences were presented using different emotion (in parentheses is the three letter code used in the third part of the filename):
+
+- Anger (ANG)
+- Disgust (DIS)
+- Fear (FEA)
+- Happy/Joy (HAP)
+- Neutral (NEU)
+- Sad (SAD)
+
+and emotion level (in parentheses is the two letter code used in the fourth part of the filename):
+ 
+- Low (LO)
+- Medium (MD)
+- High (HI)
+- Unspecified (XX)
+
+The emotion and emotion levels were rated based on the combined audiovisual presentation, the video alone, and the audio alone. Due to the large number of ratings needed, this effort was crowd-sourced and a total of 2443 raters each rated 90 unique clips, 30 audio, 30 visual, and 30 audio-visual.  95% of the clips have more than 7 ratings. 
+
+For a more complete description of CREMA-D use [this link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4313618/) or the link below to the paper.
+
 #### Access
 
 If you access the GitHub repository, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSdvOR994_Hsx7OkBU3oCzluXcmxw2P1nr-zBxcPgVBNLdD9Eg/viewform?usp=sf_link). That way we can keep a record of the community of CREMA-D users.
+
+#### Contact/Questions
+
+If you have questions about this data set, please submit a new issue to the repository or contact <dgcooper@cheyney.edu>.	
 
 #### Storage requirements
 
@@ -33,6 +67,7 @@ This Crowd-sourced Emotional Mutimodal Actors Dataset (CREMA-D) is made availabl
 3. finishedResponses.csv - the final emotional Responses with emotion levels with repeated and practice responses removed, used to tabulate the votes
 4. finisedResponsesWithRepeatWithPractice.csv - the final emotional responses with emotion levels with repeated and practice responses in tact. Used to observe repeated responses and practice responses.
 5. processedResults/tabulatedVotes.csv - the tabulated votes for each movie file.
+6. VideoDemographics.csv - a mapping of ActorID (the first 4 digits of each video file) to Age, Sex, Race, and Ethicity.
 
 ##### R Scripts
 
@@ -110,6 +145,13 @@ This Crowd-sourced Emotional Mutimodal Actors Dataset (CREMA-D) is made availabl
 -  "meanNeutralRespNorm" - the normalized mean of neutral emotion levels
 -  "meanSadRespNorm" - the normalized mean of sad emotion levels
 -  "medianEmoRespNorm"  - the normalized median of all emotion levels
+
+##### Video Demographics Columns <br> VideoDemographics.csv
+- "ActorID" - the first 4 digits of the video/audio file that identifies the actor in the video.
+- "Age" - the age in years of the actor at the time of the recording
+- "Sex" - the binary sex that the actor identified
+- "Race" - African American, Asian, Caucasian, or Unspecified
+- "Ethnicity" - Hispanic or Not Hispanic
 
 ##### Video Files
 Flash Video Files used for presentation to the Raters are stored in the VideoFlash directory.

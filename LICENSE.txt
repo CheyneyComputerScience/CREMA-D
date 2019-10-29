@@ -1,5 +1,5 @@
 
-This repository contains class work from Autumn 2019 analyzing the CREMA-D dataset. 
+This repository contains class work from Autumn 2019 analyzing the CREMA-D dataset. Please contact zzzachos to gain permission before using.
 
 
 This Crowd-sourced Emotional Mutimodal Actors Dataset (CREMA-D) is made available 

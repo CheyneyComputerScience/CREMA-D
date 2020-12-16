@@ -142,8 +142,18 @@ The Actor id is a 4 digit number at the start of the file. Each subsequent ident
 
 Actors spoke from a selection of 12 sentences (in parentheses is the three letter acronym used in the second part of the filename): 
 
-- It's eleven o'clock (IEO).- That is exactly what happened (TIE).- I'm on my way to the meeting (IOM).- I wonder what this is about (IWW).- The airplane is almost full (TAI).- Maybe tomorrow it will be cold (MTI).- I would like a new alarm clock (IWL)- I think I have a doctor's appointment (ITH).- Don't forget a jacket (DFA).- I think I've seen this before (ITS).
-- The surface is slick (TSI).- We'll stop in a couple of minutes (WSI).
+- It's eleven o'clock (IEO).
+- That is exactly what happened (TIE).
+- I'm on my way to the meeting (IOM).
+- I wonder what this is about (IWW).
+- The airplane is almost full (TAI).
+- Maybe tomorrow it will be cold (MTI).
+- I would like a new alarm clock (IWL)
+- I think I have a doctor's appointment (ITH).
+- Don't forget a jacket (DFA).
+- I think I've seen this before (ITS).
+- The surface is slick (TSI).
+- We'll stop in a couple of minutes (WSI).
 
 The sentences were presented using different emotion (in parentheses is the three letter code used in the third part of the filename):
 
@@ -166,6 +176,37 @@ The suffix of the filename is based on the type of file, flv for flash video use
 
 ##### Video Files
 Flash Video Files used for presentation to the Raters are stored in the VideoFlash directory.
+
+**Note:** The following files were missing audio until Dec. 16, 2020. Updated versions were made using the **Processed Audio** WAV files. Thanks to Maximo Cobos, Ph.D. of Universitat de València for letting us know about this discrepency and combining the audio back with the video for these files:
+
+1005_IWW_DIS_XX.flv  
+1007_IWL_HAP_XX.flv  
+1037_DFA_ANG_XX.flv  
+1037_WSI_DIS_XX.flv  
+1037_WSI_FEA_XX.flv  
+1037_WSI_SAD_XX.flv  
+1039_IWL_SAD_XX.flv  
+1039_WSI_SAD_XX.flv  
+1045_ITS_HAP_XX.flv  
+1045_WSI_DIS_XX.flv  
+1046_TIE_HAP_XX.flv  
+1058_IEO_SAD_HI.flv  
+1061_TIE_ANG_XX.flv  
+1063_IEO_DIS_HI.flv  
+1067_IEO_FEA_LO.flv  
+1068_IEO_SAD_MD.flv  
+1070_IWL_SAD_XX.flv  
+1071_WSI_ANG_XX.flv  
+1072_WSI_ANG_XX.flv  
+1073_MTI_SAD_XX.flv  
+1075_IWW_DIS_XX.flv  
+1075_WSI_DIS_XX.flv  
+1076_ITH_HAP_XX.flv  
+1076_ITH_NEU_XX.flv  
+1076_TAI_NEU_XX.flv  
+1079_IWL_ANG_XX.flv  
+1079_TAI_DIS_XX.flv  
+1091_IWW_FEA_XX.flv  
 
 ##### Audio Files
 

@@ -19,7 +19,7 @@ If you access the GitHub repository, please fill out [this form](https://docs.go
 
 #### Contact/Questions
 
-If you have questions about this data set, please submit a new issue to the repository or contact <dgcooper@cheyney.edu>.	
+If you have questions about this data set, please submit a new issue to the repository or contact <dcooper@wcupa.edu>.	
 
 #### Storage requirements
 

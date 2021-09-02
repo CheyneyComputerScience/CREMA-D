@@ -28,6 +28,11 @@ Note: This repository uses Git Large File Storage, [git-lfs](https://git-lfs.git
 - **zip download:** Downloading the repository as a zip will get you all of the R scripts and csv files as well as stubs for all of the audio and video files. The zipped size is ~24MB, and the unzipped size is ~163MB.
 - **git clone:** ~7.55GB is required to clone the whole repository. In addition to the R scripts and csv files, there is audio and video from 7442 recordings as flash video, mp3, and wav files as described below.
 
+#### Setup
+```
+git lfs clone https://github.com/CheyneyComputerScience/CREMA-D.git
+```
+
 #### This Directory holds files used in the paper: 
 
 [Cao H, Cooper DG, Keutmann MK, Gur RC, Nenkova A, Verma R. CREMA-D: Crowd-sourced Emotional Multimodal Actors Dataset. IEEE transactions on affective computing. 2014;5(4):377-390. doi:10.1109/TAFFC.2014.2336244.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4313618/)

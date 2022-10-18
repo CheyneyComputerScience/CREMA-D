@@ -208,9 +208,27 @@ Flash Video Files used for presentation to the Raters are stored in the VideoFla
 1079_TAI_DIS_XX.flv  
 1091_IWW_FEA_XX.flv  
 
+**Note:** The following files do not display correctly based on their filename, but they are most likely what the raters saw. (Thank you ruanxiu520 for finding these and pointing them out.):
+
+- 1076_MTI_NEU_XX.flv - very short, no audio
+- 1076_MTI_SAD_XX.flv - error picture, no audio, very short
+- 1064_TIE_SAD_XX.flv - file has no duration
+- 1064_IEO_DIS_MD.flv - this file is actually 1 minute long and has all emotional displays for It's Eleven O'clock.
+
+
+
+
 ##### Audio Files
 
 MP3 Audio files used for presentation to the Raters are stored in the AudioMP3 directory.
+
+**Note:** The following files do not have correct audio based on their filename, but they are most likely what the raters heard. (Thank you ruanxiu520 for finding these and pointing them out.):
+
+- 1076_MTI_NEU_XX.mp3 - very short, no audio (WAV file is fine)
+- 1076_MTI_SAD_XX.mp3/wav - no audio, very short
+- 1064_TIE_SAD_XX.mp3 - file has no duration
+- 1064_IEO_DIS_MD.mp3 - this file is actually 1 minute long and has all emotional displays for It's Eleven O'clock.
+
 
 
 ##### Processed Audio

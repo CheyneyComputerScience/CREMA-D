@@ -138,7 +138,7 @@ This Crowd-sourced Emotional Mutimodal Actors Dataset (CREMA-D) is made availabl
 - "ActorID" - the first 4 digits of the video/audio file that identifies the actor in the video.
 - "Age" - the age in years of the actor at the time of the recording
 - "Sex" - the binary sex that the actor identified
-- "Race" - African American, Asian, Caucasian, or Unspecified
+- "Race" - African American, Asian, Caucasian, or Unknown
 - "Ethnicity" - Hispanic or Not Hispanic
 
 ##### Filename labeling conventions

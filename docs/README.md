@@ -1,6 +1,6 @@
 ## CREMA-D (Crowd-sourced Emotional Multimodal Actors Dataset)
 
-***Notice:*** GitHub has changed their billing and this repository is over it's download quota. We are in the process of getting additional download options. Please be patient while we resolve this.
+***Notice:*** If cloning from GitHub fails, try cloning from GitLab at our [CREMA-D mirror](https://gitlab.com/cs-cooper-lab/crema-d-mirror)
 
 #### Summary
 

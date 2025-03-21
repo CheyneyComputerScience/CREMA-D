@@ -35,7 +35,8 @@ Note: This repository uses Git Large File Storage, [git-lfs](https://git-lfs.git
 The repository is now mirrored on GitLab at [CREMA-D mirror](https://gitlab.com/cs-cooper-lab/crema-d-mirror)
 
 Try cloning from their first:
-``
+
+```
 git clone https://gitlab.com/cs-cooper-lab/crema-d-mirror.git
 ```
 

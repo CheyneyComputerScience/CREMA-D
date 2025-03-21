@@ -1,7 +1,7 @@
 ## CREMA-D (Crowd-sourced Emotional Multimodal Actors Dataset)
 
 
-***Notice:*** GitHub has changed their billing and this repository is over it's download quota. We are in the process of getting additional download options. Please be patient while we resolve this.
+***Notice:*** If cloning from GitHub fails, try cloning from GitLab at our [CREMA-D mirror](https://gitlab.com/cs-cooper-lab/crema-d-mirror)
 
 #### Summary
 
@@ -31,6 +31,16 @@ Note: This repository uses Git Large File Storage, [git-lfs](https://git-lfs.git
 - **git clone:** ~7.55GB is required to clone the whole repository. In addition to the R scripts and csv files, there is audio and video from 7442 recordings as flash video, mp3, and wav files as described below.
 
 #### Setup
+
+The repository is now mirrored on GitLab at [CREMA-D mirror](https://gitlab.com/cs-cooper-lab/crema-d-mirror)
+
+Try cloning from their first:
+``
+git clone https://gitlab.com/cs-cooper-lab/crema-d-mirror.git
+```
+
+Otherwise, you can clone from here:
+
 ```
 git lfs clone https://github.com/CheyneyComputerScience/CREMA-D.git
 ```

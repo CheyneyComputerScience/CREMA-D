@@ -1,6 +1,8 @@
 ## CREMA-D (Crowd-sourced Emotional Multimodal Actors Dataset)
 
 
+***Notice:*** GitHub has changed their billing and this repository is over it's download quota. We are in the process of getting additional download options. Please be patient while we resolve this.
+
 #### Summary
 
 CREMA-D is a data set of 7,442 original clips from 91 actors. These clips were from 48 male and 43 female actors between the ages of 20 and 74 coming from a variety of races and ethnicities (African America, Asian, Caucasian, Hispanic, and Unspecified). 
